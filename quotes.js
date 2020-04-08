@@ -10,5 +10,7 @@ window.onload = () => {
 
     document.getElementById("quote").textContent = quoteText
     document.getElementById("author").textContent = `- ${quoteAuthor}`
-  })
+  });
+
+  startTime()
 }
